@@ -1,1 +1,112 @@
 /* CSS declarations go here */
+body {
+    font-family: 'Geo', sans-serif;
+}
+
+p {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.sidebar-nav a {
+    font-weight: 50;
+    font-size: 20px;
+    margin: 12%;
+    width: 80px;
+    text-align: justify;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px !important;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  border: 3px solid gray;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: white;
+    background: #222;
+    border: none;
+    text-decoration: none;
+}
+
+.fa-facebook {
+  /*background: #222;*/
+  color: #222;
+  margin: 15px;
+}
+
+.fa-twitter {
+  /*background: #222;*/
+  color: #222;
+  margin: 15px;
+}
+
+.fa-google {
+  /*background: #222;*/
+  color: #222;
+  margin: 15px;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  margin: 15px;
+}
+
+.fa-instagram {
+  /*background: #222;*/
+  color: #222;
+  margin: 15px;
+}
+
+.social {
+    flex: 1;
+    display: inline;
+}
+
+.soc {
+    position: relative;
+    bottom: -150px
+}
+.soc-icon {
+    float: left;
+}
+
+.menu-item {
+    display: block;
+    width: 100%;
+    /*height: 4rem;*/
+    white-space: nowrap;
+    border-top: 3px solid;
+    position: relative;
+    transition: all 0.1s linear;
+}
+
+.struct {
+    position: relative;
+    display: block;
+    /*opacity: 0;*/
+    padding: 0;
+    margin: 0;
+    height: 0;
+    width: 0;
+    text-decoration: none;
+    color: #111111;
+    font-size: 17px;
+    font-size: 1.0625rem;
+    line-height: 1;
+}
+
